@@ -12,6 +12,9 @@ public class BankSolid {
         BerBunga[] berbunga = { ani, citra, dewi };
         BisaDitarik[] bisaDitarik = { ani, citra, budi };
 
+        // Ketentuan 7: Uji coba ganti ke SmsNotifikasi lalu dikembalikan
+        // Jumlah baris yang perlu diubah untuk mengganti media notifikasi: 1 baris (hanya pada inisialisasi objek Notifikasi di main)
+
         Notifikasi notifikasi = new EmailNotifikasi();
         ProsesAkhirBulan proses = new ProsesAkhirBulan(notifikasi);
         LaporanBank laporan = new LaporanBank();
